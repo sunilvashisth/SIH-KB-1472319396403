@@ -1,0 +1,13 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: SIH KB
+  host: SIH-KB
+  disk_quota: 1024M
+  services:
+  - Mobile Client Access-om
+  - Push Notifications
+  - Cloudant NoSQL DB-KB
+  - Single Sign On-SIH
