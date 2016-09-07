@@ -1,5 +1,5 @@
 applications:
-- path: ./webStarterApp.war
+- path: ./WebSIHKBApp.war
   memory: 1024M
   instances: 1
   domain: mybluemix.net
